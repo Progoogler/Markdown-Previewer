@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="Title">Markdown Previewer</div>
+        <div className="Title">Markdown View</div>
         <textarea
           className="TextArea"
           onChange={this.handleTextInput}
